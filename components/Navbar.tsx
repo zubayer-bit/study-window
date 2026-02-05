@@ -48,35 +48,23 @@ export default function Navbar() {
             href="/about"
             className="hover:text-[#F7941D] transition-colors"
           >
-            ABOUT_US
+            ABOUT US
           </Link>
           <Link
             href="/services"
             className="hover:text-[#F7941D] transition-colors"
           >
-            OUR_SERVICES
+            OUR SERVICES
           </Link>
           <Link
             href="/study-options"
             className="hover:text-[#F7941D] transition-colors"
           >
-            STUDY_OPTIONS_IN_UK
-          </Link>
-          <Link
-            href="/contact"
-            className="hover:text-[#F7941D] transition-colors"
-          >
-            CONTACT_US
-          </Link>
-          <Link
-            href="/student"
-            className="hover:text-[#F7941D] transition-colors"
-          >
-            DASHBOARD
+            STUDY OPTIONS IN UK
           </Link>
 
           <Link
-            href="/auth/login"
+            href="/contact"
             className="ml-2 lg:ml-4 px-3 lg:px-5 py-2 rounded font-bold transition-all text-sm lg:text-base bg-[#F7941D] hover:bg-[#d67a10] text-white shadow-md"
           >
             Get Started
@@ -118,39 +106,25 @@ export default function Navbar() {
           className="block py-3"
           onClick={() => setOpen(false)}
         >
-          ABOUT_US
+          ABOUT US
         </Link>
         <Link
           href="/services"
           className="block py-3"
           onClick={() => setOpen(false)}
         >
-          OUR_SERVICES
+          OUR SERVICES
         </Link>
         <Link
           href="/study-options"
           className="block py-3"
           onClick={() => setOpen(false)}
         >
-          STUDY_OPTIONS_IN_UK
-        </Link>
-        <Link
-          href="/contact"
-          className="block py-3"
-          onClick={() => setOpen(false)}
-        >
-          CONTACT_US
-        </Link>
-        <Link
-          href="/student"
-          className="block py-3"
-          onClick={() => setOpen(false)}
-        >
-          DASHBOARD
+          STUDY OPTIONS IN UK
         </Link>
 
         <Link
-          href="/auth/login"
+          href="/contact"
           onClick={() => setOpen(false)}
           className="block mt-4 py-3 px-4 rounded text-center font-semibold mb-4"
           style={{ backgroundColor: "var(--color-cta)" }}
