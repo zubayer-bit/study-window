@@ -27,8 +27,8 @@ export default function StudentJourney() {
 
   return (
     <section className="py-12 sm:py-16 md:py-20 bg-[#0A1F44] text-white">
-      <div className="container mx-auto px-4 sm:px-6">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-10 sm:mb-12">
+      <div className="container  mx-auto px-4 sm:px-6">
+        <h2 className="text-2xl  sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-10 sm:mb-12">
           Your Journey With Us
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
