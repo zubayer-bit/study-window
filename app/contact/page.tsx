@@ -119,7 +119,7 @@ export default function Contact() {
                       Email
                     </h3>
                     <p className="text-xs sm:text-sm md:text-base text-gray-600">
-                      Contact us through our consultation form
+                      admin@studywindow.co.uk <br />studywindow.uk@gmail.com
                     </p>
                   </div>
                 </div>
@@ -145,8 +145,8 @@ export default function Contact() {
               {/* Google Map */}
               <div className="mt-6 sm:mt-8 rounded-lg overflow-hidden h-48 sm:h-64 shadow-md">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2479.8984347856775!2d0.04761277647806729!3d51.553328571821436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a6f8c5e8e8e3%3A0x8e8e8e8e8e8e8e8!2s606%20Romford%20Rd%2C%20London%20E12%205AF%2C%20UK!5e0!3m2!1sen!2sus!4v1704470000000!5m2!1sen!2sus"
-                  width="100%"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1655.7545009428802!2d0.0523956994179586!3d51.55304091713742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a656b842ffff%3A0xf610f2885760015!2s1%20Romford%20Rd%2C%20London%20E12%205AW%2C%20UK!5e0!3m2!1sen!2sbd!4v1770359076888!5m2!1sen!2sbd" 
+                 width="100%"
                   height="100%"
                   style={{ border: 0 }}
                   allowFullScreen

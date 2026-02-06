@@ -9,14 +9,14 @@ export default function Footer() {
       <div className="container mx-auto px-6 py-14">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* About Section */}
-          <div>
+          <div className="col-span-1 md:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-2 mb-4 bg-gradient-to-r from-white/80 via-blue-400/10 to-transparent p-3 rounded-lg backdrop-blur-sm">
               <Image
-                src="/study-window-logo-500-rem.png"
+                src="/study-window-logo-500.png"
                 alt="Study Window Logo"
-                width={70}
-                height={40}
-                className="object-contain opacity-100"
+                width={300}
+                height={300}
+                className="object-contain opacity-100 w-18 md:w-20 lg:w-22"
               />
               {/* <h3 className="text-xl font-bold text-white">Study Window</h3> */}
             </div>
@@ -28,7 +28,7 @@ export default function Footer() {
           </div>
 
           {/* Quick Links */}
-          <div>
+          <div className="col-span-1">
             <h4 className="text-lg font-semibold mb-4 text-white">
               Quick Links
             </h4>
@@ -77,7 +77,7 @@ export default function Footer() {
           </div>
 
           {/* Study Programs */}
-          <div>
+          <div className="col-span-1">
             <h4 className="text-lg font-semibold mb-4 text-white">
               Study Programs
             </h4>
@@ -126,7 +126,7 @@ export default function Footer() {
           </div>
 
           {/* Contact Info */}
-          <div>
+          <div className="col-span-1 md:col-span-2 lg:col-span-1">
             <h4 className="text-lg font-semibold mb-4 text-white">
               Contact Us
             </h4>
@@ -187,7 +187,8 @@ export default function Footer() {
                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                   />
                 </svg>
-                <span>Email: </span>
+                <span> admin@studywindow.co.uk <br /> 
+                       studywindow.uk@gmail.com </span>
               </div>
             </address>
           </div>

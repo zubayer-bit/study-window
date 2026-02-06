@@ -26,18 +26,18 @@ export default function Navbar() {
   from-[#f6f8fb] via-[#3f63ab] to-[#0a2e6d]
   shadow-lg"
     >
-      <div className="container mx-auto px-6  flex items-center justify-between">
+      <div className="container mx-auto px-4 md:px-6  flex items-center justify-between">
         {/* Logo */}
         <Link
           href="/"
-          className="flex items-center gap-3  p-3 rounded-lg backdrop-blur-sm"
+          className="flex items-center gap-3  p-2 md:p-3 rounded-lg backdrop-blur-sm"
         >
           <Image
             src="/study-window-logo-500-rem.png"
             alt="Study Window Logo"
-            width={70}
-            height={40}
-            className="object-contain md:w-16 lg:w-22  "
+            width={330}
+            height={300}
+            className="object-contain w-18 md:w-20 lg:w-22"
           />
           {/* <span className="text-xl md:text-[20px] font-semibold">Study Window</span> */}
         </Link>
@@ -73,7 +73,7 @@ export default function Navbar() {
 
         {/* Mobile Hamburger */}
         <button
-          className="md:hidden text-[#0A1F44]"
+          className="md:hidden text-white"
           onClick={() => setOpen(!open)}
           aria-label="Toggle menu"
           aria-expanded={open}

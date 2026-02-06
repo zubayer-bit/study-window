@@ -53,7 +53,7 @@ export default function StudyOptions() {
               <p className="text-gray-600 text-xs sm:text-sm md:text-base leading-relaxed mb-3 sm:mb-4">
                 {option.description}
               </p>
-              <span className="text-[#F7941D] font-medium text-xs sm:text-sm">
+              <span className="text-[#F7941D] font-medium text-xs sm:text-sm bg-[#F7941D]/10 px-2 py-1 rounded inline-block">
                 Learn More →
               </span>
             </Link>
